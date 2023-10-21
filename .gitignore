@@ -1,0 +1,20 @@
+# این یک نمونه .gitignore است
+
+# فایل‌های سیستمی و موقتی
+.DS_Store
+Thumbs.db
+
+# پوشه‌های نودمودولز (Node.js)
+node_modules/
+.parcel-cache/
+
+# پوشه‌های خروجی برای IDE‌ها
+/out/
+/dist/
+/build/
+/target/
+
+# فایل‌های محیط محلی (local environment)
+.env
+.env.local
+.env.*.local
